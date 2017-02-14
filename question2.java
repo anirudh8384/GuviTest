@@ -16,13 +16,12 @@ public class question{
 					}
 					
 					else{
-					System.out.println(no);
-					System.out.println("odd");
+						if(no == 1)
+							System.out.println("Composite");
+						else
+							System.out.println("odd");
 					}
 				
 		
 		}
-
-	
-
 }
