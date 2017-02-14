@@ -18,7 +18,6 @@ public class question{
 					counter++;
 				}
 				while (myInt >= 1){
-					System.out.println(myInt%10);		
 						myInt = myInt/10;
 						countDig++;
 					}
